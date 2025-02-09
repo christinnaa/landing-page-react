@@ -1,5 +1,6 @@
 import { Switch } from "@headlessui/react";
 import { useState, useEffect } from "react";
+import { Sun, Moon } from "lucide-react";
 
 function Toggle() {
   const [enabled, setEnabled] = useState(false);
@@ -29,9 +30,17 @@ function Toggle() {
     <Switch
       checked={enabled}
       onChange={handleToggle}
-      className="group inline-flex h-6 w-11 items-center rounded-full bg-gray-200 transition data-[checked]:bg-blue-600"
+      className={`relative inline-flex h-6 w-12 items-center rounded-full transition ${
+        enabled ? "bg-primaryColor" : "bg-gray-300"
+      }`}
     >
-      <span className="size-4 translate-x-1 rounded-full bg-white transition group-data-[checked]:translate-x-6" />
+      <span
+        className={`absolute flex h-5 w-5 items-center justify-center transform rounded-full bg-white transition ${
+          enabled ? "translate-x-6" : "translate-x-1"
+        }`}
+      >
+        {enabled ? <Moon size={14} className="text-primaryColor" /> : <Sun size={14} className="text-yellow-500" />}
+      </span>
     </Switch>
   );
 }

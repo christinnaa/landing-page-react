@@ -12,6 +12,7 @@ function InformationSection() {
         height: "830px",
       }}
     >
+      <div className="absolute inset-0 bg-transparent dark:bg-secondaryColor/60"></div>
       <div
         className="absolute inset-0"
         style={{

@@ -4,7 +4,7 @@ import Button from "./button";
 function InclusionsSection() {
   return (
     <div
-      className="relative flex justify-center lg:justify-end" // Use flex to align content to the right
+      className="relative flex justify-center lg:justify-end"
       style={{
         backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: "cover",
@@ -12,15 +12,16 @@ function InclusionsSection() {
         height: "830px",
       }}
     >
+      <div className="absolute inset-0 bg-transparent dark:bg-secondaryColor/50"></div>
       <div
         className="lg:hidden absolute inset-0"
         style={{
           backgroundColor: "#2A3744",
           mixBlendMode: "hard-light",
-          opacity: 0.2,
+          opacity: 0.4,
         }}
       ></div>
-      <div className="flex flex-col justify-center items-center w-10/12 lg:w-1/2 text-white lg:text-black">
+      <div className="flex flex-col justify-center items-center w-10/12 lg:w-1/2 text-white lg:text-black z-50 dark:text-white">
         <div className="relative w-full lg:w-[500px]">
           <h2 className="text-4xl z-50 leading-snug font-bold">
             What&apos;s Included

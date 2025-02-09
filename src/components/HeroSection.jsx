@@ -19,7 +19,7 @@ function HeroSection() {
   ];
 
   return (
-    <>
+    <div className="dark:bg-secondaryColor">
       <div
         className="relative h-[688px]"
         style={{
@@ -29,6 +29,8 @@ function HeroSection() {
           backgroundRepeat: "no-repeat",
         }}
       >
+        <div className="absolute inset-0 bg-transparent dark:bg-secondaryColor/70"></div>
+
         <div
           className="absolute inset-0"
           style={{
@@ -44,7 +46,7 @@ function HeroSection() {
           <div className="flex flex-col justify-center items-center col-span-3">
             <div className="w-10/12 lg:w-[670px] text-center lg:text-left">
               <h2 className="text-base">Administration List</h2>
-              <h1 className="text-[45px] leading-tight lg:ml-8 mt-2 lg:mt-6 ">
+              <h1 className="text-[45px] leading-tight lg:ml-8 mt-2 lg:mt-6">
                 Download our Ultimate Guide on how to Capitalise on Distressed
                 Business Opportunities
               </h1>
@@ -65,13 +67,13 @@ function HeroSection() {
             <img
               src={logo.src}
               alt={`logo-${index + 1}`}
-              style={{ width: `${logo.width}px`, height: `${logo.height}px` }} // Apply pixel values
+              style={{ width: `${logo.width}px`, height: `${logo.height}px` }}
             />
           </div>
         ))}
       </div>
-      <div className="mt-16 px-4 lg:px-20 mb-24">
-        <div className="dark:bg-gray-800 dark:text-white bg-[#F5F5F5] flex flex-col justify-center items-center h-fit px-2 py-16 lg:py-0 lg:h-[650px]">
+      <div className="mt-16 px-4 lg:px-20 pb-24">
+        <div className="dark:bg-tertiaryColor dark:text-white bg-[#F5F5F5] flex flex-col justify-center items-center h-fit px-2 py-16 lg:py-0 lg:h-[650px]">
           <h2 className="dark:text-white font-bold text-2xl lg:text-4xl text-center">
             Leverage Distressed Acquisitions <br />
             for Maximum Profitability
@@ -95,7 +97,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
