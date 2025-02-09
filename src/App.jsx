@@ -7,7 +7,7 @@ import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <HeroSection />
       <ServicesSection />
       <InformationSection />
