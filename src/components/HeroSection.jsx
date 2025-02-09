@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import HeroImage from "../assets/hero-img.webp";
+import HeroImage from "../assets/hero-img1.webp";
 import Button from "./ButtonComponent";
 import LogoGrid from "./LogoGrid";
 import Toggle from "./Toggle";
@@ -43,7 +43,7 @@ function HeroSection() {
                 Administration List
               </motion.h2>
               <motion.h1
-                className="text-[45px] leading-tight lg:ml-8 mt-2 lg:mt-6"
+                className="text-[45px] leading-tight lg:ml-10 mt-2 lg:mt-6"
                 initial={{ opacity: 0, y: 80 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
@@ -54,7 +54,7 @@ function HeroSection() {
               </motion.h1>
 
               <motion.p
-                className="mt-5 lg:ml-8"
+                className="mt-5 lg:ml-10"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
@@ -63,7 +63,7 @@ function HeroSection() {
                 Stay ten steps ahead of your competition.
               </motion.p>
               <motion.div
-                className="mt-11 lg:ml-8"
+                className="mt-11 lg:ml-10"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}

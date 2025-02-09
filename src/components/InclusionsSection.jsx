@@ -13,7 +13,7 @@ function InclusionsSection() {
         height: "830px",
       }}
     >
-      <div className="absolute inset-0 bg-transparent dark:bg-secondaryColor/50"></div>
+      <div className="absolute inset-0 bg-transparent dark:bg-secondaryColor/40"></div>
       <div
         className="lg:hidden absolute inset-0"
         style={{

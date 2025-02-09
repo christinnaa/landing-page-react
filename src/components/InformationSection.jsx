@@ -43,10 +43,10 @@ function InformationSection() {
           </motion.h2>
 
           <motion.div
-            className="absolute top-0 -left-5"
+            className="absolute -top-3 -left-4"
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: false }}
           >
             <img src={Stroke} alt="" />
@@ -56,7 +56,7 @@ function InformationSection() {
             className="mt-4 text-white font-normal"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2, ease: "easeOut", delay: 0.3 }}
+            transition={{ duration: 0.2, ease: "easeOut", delay: 0.4 }}
             viewport={{ once: false }}
           >
             Starts with clarifying your commercial purpose. Successful investors
@@ -80,7 +80,7 @@ function InformationSection() {
             className="mt-12 flex justify-center lg:justify-start"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.2, delay: 0.5 }}
+            transition={{ duration: 0.2, delay: 0.4 }}
             viewport={{ once: false }}
           >
             <Button />
