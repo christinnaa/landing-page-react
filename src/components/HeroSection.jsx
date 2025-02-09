@@ -5,7 +5,7 @@ import LogoThree from "../assets/logo-3.png";
 import LogoFour from "../assets/logo-4.png";
 import LogoFive from "../assets/logo-5.png";
 import LogoSix from "../assets/logo-6.png";
-import Button from "./button";
+import Button from "./ButtonComponent";
 import Toggle from "./Toggle";
 
 function HeroSection() {

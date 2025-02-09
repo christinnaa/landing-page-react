@@ -1,5 +1,5 @@
 import BackgroundImage from "../assets/inclusions-img.webp";
-import Button from "./button";
+import Button from "./ButtonComponent";
 
 function InclusionsSection() {
   return (

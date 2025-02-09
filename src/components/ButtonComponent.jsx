@@ -1,4 +1,4 @@
-function Button() {
+function ButtonComponent() {
   return (
     <button className="w-fit bg-primaryColor px-6 font-semibold py-3 rounded-full text-white shadow-lg">
       DOWNLOAD FREE RESOURCE
@@ -6,4 +6,4 @@ function Button() {
   );
 }
 
-export default Button;
+export default ButtonComponent;
