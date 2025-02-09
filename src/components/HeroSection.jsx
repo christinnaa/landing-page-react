@@ -32,7 +32,7 @@ function HeroSection() {
         </div>
         <div className="absolute inset-0 text-white z-10 grid grid-cols-span-1 lg:grid-cols-5">
           <div className="flex flex-col justify-center items-center col-span-3">
-            <div className="w-10/12 lg:w-[670px] text-center lg:text-left">
+            <div className="w-10/12 lg:w-[700px] text-center lg:text-left">
               <motion.h2
                 className="text-2xl"
                 initial={{ opacity: 0, y: -20 }}

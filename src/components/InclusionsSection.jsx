@@ -89,7 +89,7 @@ function InclusionsSection() {
             className="mt-14 flex justify-center lg:justify-start"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.25 }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
             viewport={{ once: false }}
           >
             <Button />
