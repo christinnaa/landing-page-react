@@ -37,14 +37,14 @@ function HeroSection() {
             opacity: 0.7,
           }}
         ></div>
-        <div className="absolute top-2 right-4">
+        <div className="absolute top-2 right-4 z-20">
           <Toggle />
         </div>
         <div className="absolute inset-0 text-white z-10 grid grid-cols-span-1 lg:grid-cols-5">
           <div className="flex flex-col justify-center items-center col-span-3">
             <div className="w-10/12 lg:w-[670px] text-center lg:text-left">
               <h2 className="text-base">Administration List</h2>
-              <h1 className="text-[45px] leading-tight lg:ml-8 mt-2 lg:mt-6">
+              <h1 className="text-[45px] leading-tight lg:ml-8 mt-2 lg:mt-6 ">
                 Download our Ultimate Guide on how to Capitalise on Distressed
                 Business Opportunities
               </h1>
@@ -71,19 +71,19 @@ function HeroSection() {
         ))}
       </div>
       <div className="mt-16 px-4 lg:px-20 mb-24">
-        <div className="bg-[#F5F5F5] flex flex-col justify-center items-center h-fit px-2 py-16 lg:py-0 lg:h-[650px]">
-          <h2 className="font-bold text-2xl lg:text-4xl text-center">
+        <div className="dark:bg-gray-800 dark:text-white bg-[#F5F5F5] flex flex-col justify-center items-center h-fit px-2 py-16 lg:py-0 lg:h-[650px]">
+          <h2 className="dark:text-white font-bold text-2xl lg:text-4xl text-center">
             Leverage Distressed Acquisitions <br />
             for Maximum Profitability
           </h2>
           <div className="w-11/12 lg:w-[624px] text-center mt-6">
-            <p className="text-[18px] text-[#181818] font-extralight">
+            <p className="dark:text-white text-[18px] text-[#181818] font-extralight">
               Administration List is a service for savvy investors and business
               leaders seeking valuable insights into the UK insolvency sector.
               Welcome to a world of exclusive information and trends in
               distressed acquisition activity.
             </p>
-            <p className="text-[18px] text-[#181818] font-extralight mt-4">
+            <p className="dark:text-white text-[18px] text-[#181818] font-extralight mt-4">
               Identify the right opportunities, negotiate the best deals, and
               maximise returns with distressed business acquisitions. Our
               Ultimate Guide can help you stay ten steps ahead of your
