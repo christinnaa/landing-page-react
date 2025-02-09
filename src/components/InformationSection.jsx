@@ -1,4 +1,4 @@
-import BackgroundImage from "../assets/info-img.png";
+import BackgroundImage from "../assets/info-img.webp";
 import Stroke from "../assets/stroke.png";
 import Button from "./button";
 function InformationSection() {

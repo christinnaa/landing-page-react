@@ -1,4 +1,4 @@
-import HeroImage from "../assets/hero-img.png";
+import HeroImage from "../assets/hero-img.webp";
 import LogoOne from "../assets/logo-1.png";
 import LogoTwo from "../assets/logo-2.png";
 import LogoThree from "../assets/logo-3.png";
@@ -6,6 +6,7 @@ import LogoFour from "../assets/logo-4.png";
 import LogoFive from "../assets/logo-5.png";
 import LogoSix from "../assets/logo-6.png";
 import Button from "./button";
+import Toggle from "./Toggle";
 
 function HeroSection() {
   const logos = [
@@ -24,7 +25,7 @@ function HeroSection() {
         style={{
           backgroundImage: `url(${HeroImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "right 55%",
+          backgroundPosition: "right 52%",
           backgroundRepeat: "no-repeat",
         }}
       >
@@ -36,7 +37,9 @@ function HeroSection() {
             opacity: 0.7,
           }}
         ></div>
-
+        <div className="absolute top-2 right-4">
+          <Toggle />
+        </div>
         <div className="absolute inset-0 text-white z-10 grid grid-cols-span-1 lg:grid-cols-5">
           <div className="flex flex-col justify-center items-center col-span-3">
             <div className="w-10/12 lg:w-[670px] text-center lg:text-left">

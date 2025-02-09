@@ -1,4 +1,4 @@
-import ServicesImage from "../assets/services-img.png";
+import ServicesImage from "../assets/services-img.webp";
 import DevicesImage from "../assets/devices-img.png";
 import TimeImage from "../assets/time.png";
 import DataImage from "../assets/data1.png";
